@@ -1296,11 +1296,11 @@ body {
 .reveal .speaker-notes.visible:not(:empty) {
   display: block; }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .reveal .speaker-notes {
     font-size: 14px; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .reveal .speaker-notes {
     width: 90%;
     left: 5%; } }
