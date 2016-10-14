@@ -261,7 +261,7 @@ body {
 .reveal .progress {
   position: fixed;
   display: none;
-  height: 3px;
+  height: 10px;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -295,9 +295,9 @@ body {
   z-index: 31;
   font-family: Helvetica, sans-serif;
   font-size: 12px;
-  line-height: 1;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
+  line-height: 10;
+  color: #f44;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 5px; }
 
 .reveal .slide-number-delimiter {
@@ -328,8 +328,8 @@ body {
   text-align: center;
   -webkit-perspective: 600px;
           perspective: 600px;
-  -webkit-perspective-origin: 50% 40%;
-          perspective-origin: 50% 40%; }
+  -webkit-perspective-origin: 50% 50%;
+          perspective-origin: 50% 50%; }
 
 .reveal .slides > section {
   -ms-perspective: 600px; }
@@ -339,7 +339,7 @@ body {
   display: none;
   position: absolute;
   width: 100%;
-  padding: 20px 0px;
+  padding: 0px 0px;
   z-index: 10;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
@@ -580,7 +580,7 @@ body {
           perspective: 1300px; }
 
 .reveal.cube .slides section {
-  padding: 30px;
+  padding: 0px;
   min-height: 700px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -655,7 +655,7 @@ body {
           perspective: 3000px; }
 
 .reveal.page .slides section {
-  padding: 30px;
+  padding: 0px;
   min-height: 700px;
   box-sizing: border-box; }
 
